@@ -32,15 +32,6 @@ No. You will need the Fusion Builder plugin activated on your site.
 
 == Changelog ==
 
-= 1.0.4 = 
-* Further testing. No feature changes.
-
-= 1.0.3 = 
-* Testing wp-continuous-deployment.
-
-= 1.0.2 = 
-* Further improved performance by unloading JS/CSS files in frontend.
-
 = 1.0.1 =
 * Removed unused JS and CSS files being loaded on frontend.
 
