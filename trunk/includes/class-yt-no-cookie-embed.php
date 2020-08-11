@@ -173,8 +173,8 @@ class Yt_No_Cookie_Embed {
 
 		$plugin_public = new Yt_No_Cookie_Embed_Public( $this->get_plugin_name(), $this->get_version() );
 
-		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
-		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
+		// $this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
+		// $this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 
 		add_shortcode( 'fusion_youtube_nocookie', array( $plugin_public, 'render' ) );
 	}
