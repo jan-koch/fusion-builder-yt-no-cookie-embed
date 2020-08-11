@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Youtube No-Cookie Embed
  * Description:       This plugin extends the Fusion Builder plugin with a "Youtube (No-Cookie)" page builder element.
- * Version:           1.0.0
+ * Version:           1.0.6
  * Author:            punktbar
  * Author URI:        https://punktbar.de
  * License:           GPL-2.0+
